@@ -128,3 +128,21 @@ function square(number) {
   return number * number;
 }
 console.log(square(5)); //here we are calling 2 functions - 1. log() and 2. square().
+
+console.log("----- Arithmatic operators ----- ");
+
+let a = 4;
+let b = 2;
+console.log("Addition operator : " + (a + b));
+console.log("Subraction operator : " + (a - b));
+console.log("multiplication operator : " + a * b);
+console.log("division operator : " + a / b);
+console.log("modulus operator : " + (a % b));
+console.log("exponential operator (a power b) " + a ** b);
+
+console.log("----- Assignment operators ----- ");
+
+a += 4; // a = a + 4;
+b *= 2; // b = b * 2;
+
+console.log("'A' value is : " + a + " and " + "'B' value is : " + b);
